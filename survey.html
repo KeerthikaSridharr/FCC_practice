@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+     <h1 id="title">WEBINAR SURVEY</h1>
+     <p id="description">Kindly complete the survey </p>  
+     <form id="survey-form">
+       <label id="name-label" for="name">Name</label>
+       <input type="text" id="name"placeholder="Enter your name" required><br>
+       <label id="email-label" for="email">Email</label>
+       <input type="email" id="email" placeholder="Enter your email" required><br>
+       <label id="number-label" for="age">Age</label>
+       <input type="number" id="number" min="10" max="100" placeholder="Age"><br><br>
+       <label for="dropdown">Which describes you?</label>
+       <select id="dropdown">
+         <option value="">Select an option</option>
+         <option value="student">Student</option>
+         <option value="professional">Working professional</option>
+         </select><br><br>
+         <label>Would you suggest the webinar to others</label><br>
+         <div class="radio-group">
+           <label><input type="radio" name="recommend" value="no">Yes</label>
+            <label><input type="radio" name="recommend" value="no"> No</label>
+           </div><br>
+            <label>What are the topics were good in the webinar?</label><br>
+            <div class="checkbox-group">
+           <label><input type="checkbox" value="html">HTML</label>
+            <label><input type="checkbox" value="css">CSS</label>
+            <label><input type="checkbox" value="js">Javascript</label>
+           </div><br>
+           <label for="comments">Any suggestions?</label><br>
+           <textarea id="comments" rows="3"placeholder="Your comments here.."></textarea><br><br>
+           <button id="submit" type="submit">SUBMIT</button>
+           </form>
+  </body>
+</html>
