@@ -1,0 +1,33 @@
+body{
+  font-family:Arial;
+  background:#f0f4f8;
+  padding:30px;
+}
+
+.todo-list{
+list-style:none;
+max-width:500px;
+}
+.todo-list>li{
+  background:#e8f5e9; 
+  padding:10px;
+  margin-bottom:15px;
+}
+.sub-item{
+  list-style:square;
+}
+.sub-item-link{
+  text-decoration:none;
+}
+.sub-item-link:visited{
+  color:purple;
+}
+.sub-item-link:hover{
+  color:orange;
+}
+.sub-item-link:active{
+  color:red;
+}
+.sub-item-link:focus{
+  outline: 2px solid green;
+}
